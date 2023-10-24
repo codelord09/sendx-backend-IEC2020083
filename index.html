@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Crawler</title>
+</head>
+<body>
+    <h1>Web Crawler</h1>
+    <form action="http://localhost:5500/crawl" method="post">
+        <label for="url">Enter URL to Crawl:</label>
+        <input type="text" id="url" name="url" required><br>
+        <label for="paying">Are you a paying customer?</label>
+        <input type="checkbox" id="paying" name="paying" value="true"><br><br>
+        <button type="submit">Crawl</button>
+    </form>
+</body>
+</html>
