@@ -75,4 +75,3 @@ To run this application, follow these steps:
 
 5. Access the application via a web browser or tools like Postman.
 
-You're now ready to use this Go web application to crawl web pages and check the existence of web URLs. Make sure to customize the code and configurations to suit your specific requirements and environment.
