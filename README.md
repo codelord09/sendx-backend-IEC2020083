@@ -73,5 +73,5 @@ To run this application, follow these steps:
    go run main.go
    ```
 
-5. Access the application via a web browser or tools like Postman.
+5. Access the application via a web browser or tools  like Postman.
 
