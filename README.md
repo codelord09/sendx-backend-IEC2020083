@@ -14,6 +14,11 @@ Welcome to the README for this Go web application. This document provides essent
 
 This single-page web application allows users to request the crawling of a URL. Users can enter the URL they want to crawl into a search bar and click on the "Crawl" button. The server will check if the URL has been crawled in the last 60 minutes. If the page is found in the server's cache, it will be read and returned to the user. If not, the server will crawl the URL in real-time and return the page. The maximum retries is given is 3, If an invalid user entered then it will check  3 times, and still if it not return anything then it will pop up message to retru with the correct url. It's implemented for 2 tyoes if userrs, Paid ones and non-paid ones. For paid ones 5 crawl APIs work concurrently and for unpaid users 2 crawl APi works, therefore paid user will have lesser crawl time.
 
+I've implemented 
+- Required
+- Good To Have
+- Great To Have
+
 ## Tech Stack
 
 The application is built using the following technologies:
