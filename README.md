@@ -53,7 +53,7 @@ The code includes the following key components:
 - **writeErrorToHTML:** Generates an error page if there is an issue with crawling.
 - **writeCrawlTimeToHTML:** Generates a result page with crawl time and content.
 
-##Usage
+### Usage
 
 This project utilizes several Go packages to enhance its functionality. Here's a brief overview of how these packages are used:
 
